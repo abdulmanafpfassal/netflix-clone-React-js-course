@@ -1,0 +1,27 @@
+.Posters{
+    color: #fff;
+}
+.title{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.poster{
+    
+    margin-left: 10px;
+    max-height: 250px;
+    width: 400px;
+}
+.RowPosters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.RowPosters::-webkit-scrollbar{
+    display: none;
+}
+.smallPoster{
+    max-height: 150px;
+    margin-left: 10px;
+}
